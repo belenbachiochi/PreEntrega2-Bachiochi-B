@@ -1,0 +1,54 @@
+
+.titulos { 
+    font-style: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.texto { 
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.centrado { 
+    text-align: center;
+}
+.tablas {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 30%;
+    width: 50%;
+}
+.fotos_juveniles{
+    float: right;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.listas { 
+    list-style:circle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+footer { 
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+.full-image { 
+    min-width: 336px;
+    max-width: 100%;
+    width: 100%;
+    min-height: 280px;
+    height: 500px;
+    object-fit: cover;
+}
+
