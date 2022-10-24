@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+    font-size: 12px;
+}
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-block;
+    position: center;
+    top: 0cm;
+    margin-top: 0%;
+}
+nav {
+    background-color: white;
+    color: #344E41;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+nav ul li{
+    margin-top: 2%;
+    float: left;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: #344E41;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 0%;
+    
+}
+nav li a:hover{
+    font-size: larger;
+    background-color: #dad7cd ;
+}
+.active {
+    background-color: #c6c3ba;
+}
+.full-image { 
+    min-width: 336px;
+    max-width: 100%;
+    width: 100%;
+    min-height: 280px;
+    height: 500px;
+    object-fit: cover;
+}
+body{
+    background-color: white;
+    color: black;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.titulos { 
+    font-style: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+p { 
+    font-size: 12px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.formulario { 
+    text-align: center;
+    height: 500px;
+}
+form { 
+    margin-top: 20px;
+}
+.table_home {
+    border-style: none;
+    text-align: center;
+    margin: 5px;
+}
+.table_home td{
+    padding: 10px;
+
+}
+footer { 
+    background-color: white;
+    color: #344E41;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: solid #344E41;
+}
+input[type=text],
+select,
+textarea {
+    border-radius: 4px;
+    border: #dad7cd;
+    background-color: #dad7cd;
+    
+}
+input[type=email],
+select,
+textarea {
+    border-radius: 4px;
+    border: #dad7cd;
+    background-color: #dad7cd;
+}
+input[type=submit] {
+    background-color: #344E41;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #c6c3ba;
+    color: #344E41;
+}
+/* Mayores */
+.seccion{
+    margin-top: 50px;
+}
+.tablas {
+text-align: center;
+padding-top: 10px;
+width: 50%;
+}
+th,td { 
+    border-bottom: 1px solid #c6c3ba;
+
+}
+tr:hover { 
+    background-color: #344E41;
+    color: white;
+}
+.boton {
+    background-color: #344E41;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.boton:hover {
+    background-color: #c6c3ba;
+    color: #344E41;
+}
+ol li {
+    padding: 5px;
+    margin-left: 500px;
+  }
+.listado { 
+    margin-top: 10px;
+}
+.fotos_juveniles{
+    float: right;
+    width: 619px;
+    height: 509px;
+}
+.listas { 
+    list-style:circle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
